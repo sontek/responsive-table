@@ -43,12 +43,8 @@ tr {
     outline-offset: -1px;
     border: 0;
     display: block;
-
-
-    @media (max-width: "600px") {
-
-    }
 }
+
 .responsive-table tr td:first-child {
     background-color: #ccc;
     font-weight: bold;
@@ -69,7 +65,7 @@ tr {
 
 
 /* Any styles special to desktop ( > mobile) */
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     .responsive-table thead {
         display: table-header-group !important;
     }
